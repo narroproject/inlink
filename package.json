@@ -1,0 +1,36 @@
+{
+  "name": "@narroproject/inlink",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A TypeScript client for the Narro inlink API, for easily querying web page metadata via a cloud endpoint.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc --outDir dist --declaration --emitDeclarationOnly false",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [
+    "metadata",
+    "web",
+    "api",
+    "scraper",
+    "og",
+    "typescript",
+    "open-graph",
+    "narro"
+  ],
+  "type": "module",
+  "dependencies": {
+    "typescript": "^5.9.3"
+  }
+}
