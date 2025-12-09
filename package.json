@@ -1,6 +1,6 @@
 {
   "name": "@narroproject/inlink",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "private": false,
   "description": "A TypeScript client for the Narro inlink API, for easily querying web page metadata via a cloud endpoint.",
   "main": "dist/index.js",
@@ -15,7 +15,7 @@
   "scripts": {
     "build": "tsc --outDir dist --declaration --emitDeclarationOnly false",
     "prepublishOnly": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No tests specified for @narroproject/inlink package\""
   },
   "author": "",
   "license": "ISC",
